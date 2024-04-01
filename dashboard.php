@@ -42,7 +42,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="dashboard.html" class="nav-link">Home</a>
+        <a href="dashboard.php" class="nav-link">Home</a>
       </li>
      
     </ul>
@@ -173,7 +173,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="dashboard.html" class="brand-link">
+    <a href="dashboard.php" class="brand-link">
       <img
         src="adminlte/dist/img/AdminLTELogo.png"
         alt="AdminLTE Logo"
@@ -236,7 +236,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="newproduct.html" class="nav-link active">
+                <a href="newproduct.php" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>New Product</p>
                 </a>
@@ -813,7 +813,209 @@
                 <h3 class="card-title">
                   <i class="far fa-calendar-alt"></i>
                   Calendar
-                </h3>
+                </h3>      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0">New Product</h1>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active">New Product</li>
+                </ol>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- /.content-header -->
+
+        <!-- Main content -->
+        <div class="content">
+          <div class="container-xxl">
+            <div class="row">
+              <div class="card mb-3 col-5 m-3">
+                <div class="row no-gutters card-body">
+                  <div class="col-md-4">
+                    <img
+                      src="https://media.architecturaldigest.com/photos/63079fc7b4858efb76814bd2/16:9/w_4000,h_2250,c_limit/9.%20DeLorean-Alpha-5%20%5BDeLorean%5D.jpg"
+                      style="object-fit: cover; object-position: center"
+                      class="h-100 w-100 car"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold pb-3">
+                        DeLorean-Alpha
+                      </h5>
+                      <p class="card-text">about car.</p>
+                      <p class="card-text">
+                        <i class="fas fa-dollar-sign"></i>
+
+                        $9999999
+                      </p>
+                      <p class="card-text">
+                        <i class="fas fa-search"></i>
+
+                        DeLorean-Alpha
+                      </p>
+
+                      <div class="d-flex justify-content-end">
+                        <button class="btn btn-primary">Purchase</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 col-5 m-3">
+                <div class="row no-gutters card-body">
+                  <div class="col-md-4">
+                    <img
+                      src="https://www.otoinfo.id/wp-content/uploads/2024/03/Toyota-GR-Supra-Mobil-Sport-Legendaris-yang-Kembali-dengan-Lebih-Hebat.jpg"
+                      style="object-fit: cover; object-position: center"
+                      class="h-100 w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold pb-3">Supra</h5>
+                      <p class="card-text">about car.</p>
+                      <p class="card-text">
+                        <i class="fas fa-dollar-sign"></i>
+
+                        $9999999
+                      </p>
+                      <p class="card-text">
+                        <i class="fas fa-search"></i>
+
+                        Supra
+                      </p>
+
+                      <div class="d-flex justify-content-end">
+                        <button class="btn btn-primary">Purchase</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 col-5 m-3">
+                <div class="row no-gutters card-body">
+                  <div class="col-md-4">
+                    <img
+                      src="https://cdn.motor1.com/images/mgl/Znnm7r/s3/ferrari-sp48-unica.jpg"
+                      style="object-fit: cover; object-position: center"
+                      class="h-100 w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold pb-3">Ferrari</h5>
+                      <p class="card-text">about car.</p>
+                      <p class="card-text">
+                        <i class="fas fa-dollar-sign"></i>
+
+                        $9999999
+                      </p>
+                      <p class="card-text">
+                        <i class="fas fa-search"></i>
+
+                        Ferrari
+                      </p>
+
+                      <div class="d-flex justify-content-end">
+                        <button class="btn btn-primary">Purchase</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 col-5 m-3">
+                <div class="row no-gutters card-body">
+                  <div class="col-md-4">
+                    <img
+                      src="https://cdn.motor1.com/images/mgl/9mZpXv/s1/2020-2022-ford-mustang-shelby-gt500kr.webp"
+                      style="object-fit: cover; object-position: center"
+                      class="h-100 w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold pb-3">
+                        Mustang Shelby
+                      </h5>
+                      <p class="card-text">about car.</p>
+                      <p class="card-text">
+                        <i class="fas fa-dollar-sign"></i>
+
+                        $9999999
+                      </p>
+                      <p class="card-text">
+                        <i class="fas fa-search"></i>
+
+                        Mustang Shelby
+                      </p>
+
+                      <div class="d-flex justify-content-end">
+                        <button class="btn btn-primary">Purchase</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 col-5 m-3">
+                <div class="row no-gutters card-body">
+                  <div class="col-md-4">
+                    <img
+                      src="https://cdn.motor1.com/images/mgl/OozxwY/s3/2024-lamborghini-aventador-successor-rendering.jpg"
+                      style="object-fit: cover; object-position: center"
+                      class="h-100 w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold pb-3">
+                        Lamborghini
+                      </h5>
+                      <p class="card-text">about car.</p>
+                      <p class="card-text">
+                        <i class="fas fa-dollar-sign"></i>
+
+                        $9999999
+                      </p>
+                      <p class="card-text">
+                        <i class="fas fa-search"></i>
+
+                        Lamborghini
+                      </p>
+
+                      <div class="d-flex justify-content-end">
+                        <button class="btn btn-primary">Purchase</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- /.content -->
+      </div>
+      <!-- /.content-wrapper -->
+
                 <!-- tools card -->
                 <div class="card-tools">
                   <!-- button with a dropdown -->

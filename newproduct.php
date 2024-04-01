@@ -36,7 +36,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             ></a>
           </li>
           <li class="nav-item d-none d-sm-inline-block">
-            <a href="dashboard.html" class="nav-link">Home</a>
+            <a href="dashboard.php" class="nav-link">Home</a>
           </li>
         </ul>
 
@@ -115,7 +115,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <img
                     src="adminlte/dist/img/user8-128x128.jpg"
                     alt="User Avatar"
-                    class="img-size-50 img-circle mr-3"
+                    class="imgarkatama.dev@gmail.com-size-50 img-circle mr-3"
                   />
                   <div class="media-body">
                     <h3 class="dropdown-item-title">
@@ -214,7 +214,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Main Sidebar Container -->
       <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
-        <a href="dashboard.html" class="brand-link">
+        <a href="dashboard.php" class="brand-link">
           <img
             src="adminlte/dist/img/AdminLTELogo.png"
             alt="AdminLTE Logo"
@@ -277,7 +277,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="newproduct.html" class="nav-link active">
+                    <a href="newproduct.php" class="nav-link active">
                       <i class="far fa-circle nav-icon"></i>
                       <p>New Product</p>
                     </a>
